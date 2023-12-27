@@ -42,7 +42,7 @@ def calculate_hours(work_str):
             hours, minutes = map(int, time_str.split(':'))
             return timedelta(hours=hours, minutes=minutes)
         
-        # Map Persian days to numbers, considering Saturday as day 0
+        # Map Persian days to numbers , considering Saturday as day 0
         days_map = {
         'شنبه': 0,
         'یک‌شنبه': 1,
