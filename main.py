@@ -4,6 +4,7 @@ import requests
 from datetime import datetime, timedelta
 import csv
 
+
 # Mapping of Persian numerals to English numerals
 persian_to_english = {
     '۰': '0',
